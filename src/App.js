@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 
 
@@ -18,8 +18,7 @@ class App extends Component {
       <div className="App" id="quote-box">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Random Quote machine {/*<code>src/App.js</code> and save to reload.*/}
+          <p> Random Quote machine {/*<code>src/App.js</code> and save to reload.*/}
           </p>
           {/* }<a
             className="App-link"
