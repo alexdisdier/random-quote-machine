@@ -1,0 +1,61 @@
+@import "../../utils/_helpers.scss";
+
+.App-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: em(72px) em(88px);
+  background-color: #282c34;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#text {
+  position: relative;
+  font-family: 'Sanchez', serif;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-style: italic;
+
+  &:before {
+    content: '\201C';
+    position: absolute;
+    top: 33px;
+    left: -72px;
+    font-size: em(72px);
+    color: #fff;
+    opacity: 0.1;
+  }
+
+  &:after {
+    content: '\201C';
+    position: absolute;
+    top: -29px;
+    right: -72px;
+    font-size: em(72px);
+    color: #fff;
+    opacity: 0.1;
+    transform: rotate(180deg);
+  }
+}
+
+#author {
+  display: inline;
+  padding-top: em(16px);
+  border-top: 2px solid #fff;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+a {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  font-size: em(8px);
+  color: #fff;
+}
