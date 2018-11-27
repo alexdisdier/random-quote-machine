@@ -22,6 +22,14 @@ random_quote_machine
 │   │   │   ├── Card.js
 │   │   │   ├── Card.scss
 │   │   │   └── Card.test.js
+│   │   ├── Footer
+│   │   │   ├── Footer.js
+│   │   │   ├── Footer.scss
+│   │   │   └── Footer.test.js
+│   │   ├── Header
+│   │   │   ├── Header.js
+│   │   │   ├── Header.scss
+│   │   │   └── Header.test.js
 │   ├── stories
 │   ├── App.js
 │   ├── App.scss
