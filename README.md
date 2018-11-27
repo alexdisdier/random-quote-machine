@@ -15,10 +15,13 @@ random_quote_machine
 │   ├── api
 │   ├── components
 │   │   ├── Button
-│   │   │   ├── _tests_
 │   │   │   ├── Button.js
 │   │   │   ├── Button.scss
-│   │   │   └── package.json
+│   │   │   └── Button.test.js
+│   │   ├── Card
+│   │   │   ├── Card.js
+│   │   │   ├── Card.scss
+│   │   │   └── Card.test.js
 │   ├── stories
 │   ├── App.js
 │   ├── App.scss
