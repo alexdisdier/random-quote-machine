@@ -1,0 +1,17 @@
+github contributions issues:
+
+https://stackoverflow.com/questions/43863522/your-push-would-publish-a-private-email-address-error/51097104#51097104
+
+https://help.github.com/articles/setting-your-commit-email-address-in-git/
+
+https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/
+
+https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit
+
+https://help.github.com/articles/about-git-rebase/#an-example-of-using-git-rebase
+
+https://www.howtoforge.com/faq/how-to-edit-files-on-the-command-line
+
+Api fetch source:
+
+https://www.robinwieruch.de/react-fetching-data/

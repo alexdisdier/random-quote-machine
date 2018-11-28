@@ -12,24 +12,11 @@ random_quote_machine
 ├── node_modules
 ├── public
 ├── src
-│   ├── api
 │   ├── components
-│   │   ├── Button
-│   │   │   ├── Button.js
-│   │   │   ├── Button.scss
-│   │   │   └── Button.test.js
 │   │   ├── Card
 │   │   │   ├── Card.js
 │   │   │   ├── Card.scss
 │   │   │   └── Card.test.js
-│   │   ├── Footer
-│   │   │   ├── Footer.js
-│   │   │   ├── Footer.scss
-│   │   │   └── Footer.test.js
-│   │   ├── Header
-│   │   │   ├── Header.js
-│   │   │   ├── Header.scss
-│   │   │   └── Header.test.js
 │   ├── stories
 │   ├── App.js
 │   ├── App.scss
