@@ -73,9 +73,11 @@ class Card extends Component {
     return (
       <div className="App-card">
         <q id="text">{this.state.tempQuote}</q>
-        <p id="author">{this.state.tempAuthor}</p>
-        <button id="new-quote" onClick={this.displayQuote}>new quote</button>
-        <a href="twitter.com/intent/tweet" id="tweet-quote">Tweet Quote</a>
+        <p id="author"><span>{this.state.tempAuthor}</span></p>
+        <div className="App-card-footer">
+          <button id="new-quote" onClick={this.displayQuote}>new quote</button>
+          <a href="https://twitter.com/intent/tweet?button_hashtag=share&ref_src=twsrc%5Etfw" id="tweet-quote" class="twitter-hashtag-button" data-show-count="false">Tweet #share</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
       </div>
     );
   }

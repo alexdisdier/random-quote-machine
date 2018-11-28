@@ -4,58 +4,92 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  padding: em(72px) em(88px);
+  justify-content: center;
+  width: 90%;
+  padding: em(16px) em(32px);
   background-color: #282c34;
   border-radius: 5px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+  @media (min-width: 1000px) {
+    height: auto;
+    width: 60%;
+    padding: em(32px) em(64px);
+  }
+  @media (min-width: $breakpoint-desktop) {
+    padding: em(72px) em(88px);
+  }
 }
 
 #text {
   position: relative;
   font-family: 'Sanchez', serif;
-  font-size: $base-font-size;
+  font-size:em(24px);
   line-height: $base-line-height;
   font-style: italic;
 
   &:before {
-    content: '\201C';
-    position: absolute;
-    top: 33px;
-    left: -72px;
-    font-size: em(72px);
+    content: open-quote;
+    position: relative;
+    font-size: em(24px);
     color: #fff;
-    opacity: 0.1;
+    opacity: 0.3;
   }
 
   &:after {
-    content: '\201C';
-    position: absolute;
-    top: -29px;
-    right: -72px;
-    font-size: em(72px);
+    content: close-quote;
+    position: relative;
+    font-size: em(24px);
     color: #fff;
-    opacity: 0.1;
-    transform: rotate(180deg);
+    opacity: 0.3;
   }
 }
 
 #author {
-  display: inline;
-  padding-top: em(16px);
-  border-top: 2px solid #fff;
+  display: block;
+  width: 100%;
+  padding-top: em(40px);
+  padding-bottom: em(24px);
   text-align: center;
+
+  span {
+    padding-top: em(16px);
+    border-top: 2px solid #fff;
+  }
+}
+
+button, a {
+  padding: em(8px) em(16px);
+  font-size: em(12px);
+  background-color: #282c34;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #fff;
+    color: #282c34;
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 button {
-  position: absolute;
   bottom: 16px;
   left: 16px;
 }
 
+
 a {
-  position: absolute;
   bottom: 16px;
   right: 16px;
-  font-size: em(8px);
-  color: #fff;
+}
+
+.App-card-footer {
+  display: flex;
+  justify-content: space-between;
 }
