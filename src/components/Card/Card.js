@@ -76,8 +76,9 @@ class Card extends Component {
         <p id="author"><span>{this.state.tempAuthor}</span></p>
         <div className="App-card-footer">
           <button id="new-quote" onClick={this.displayQuote}>new quote</button>
-          <a href="https://twitter.com/intent/tweet?button_hashtag=share&ref_src=twsrc%5Etfw" id="tweet-quote" class="twitter-hashtag-button" data-show-count="false">Tweet #share</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="http://twitter.com/share?text=Check%20it%20out%20-&url=https://alexdisdier.github.io/random-quote-machine" target="_blank">Tweet #share</a>
         </div>
+
       </div>
     );
   }

@@ -37,8 +37,9 @@ random_quote_machine
 
 * html
 * scss
-* JavaScript
-* React.js
+* [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+* [React.js](https://reactjs.org/docs/hello-world.html)
+* [Create React App](https://facebook.github.io/create-react-app/docs/getting-started)
 
 ## Authors
 
@@ -51,3 +52,5 @@ random_quote_machine
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 * I also used [storybook](https://storybook.js.org/basics/introduction/)
+
+* Deploy React to github pages [codeburst](https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d)
