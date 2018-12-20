@@ -2,6 +2,12 @@
 
 This is a simple web application that picks random quotes.
 
+![screenshot of a random quote machine](/src/screenshot.jpg?raw=true "screenshot of a random quote machine")
+
+## Usage example
+
+See a live version running this template - https://alexdisdier.github.io/random-quote-machine/
+
 ## Directory Structure
 
 ```bash
